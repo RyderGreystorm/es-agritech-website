@@ -63,7 +63,7 @@ header li a:hover{
     color: white;
     overflow: hidden;
     background: #241813;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.43)), url("/img/3.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(186, 55, 9, 0.3), rgba(186, 55, 9, 0.43)), url("/img/3.jpg"); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("/img/3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -80,13 +80,75 @@ header li a:hover{
 
 /* "Order now" div on landing page image*/
 .order-now {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
     border: solid 2px;
+    border-color: white;
     margin-left: 50px;
-    padding-left: 15px;
+    padding-left: 35px;
+   padding-right: 35px;
     height: 30px;
-    margin-right: 1150px;
+    
 }
-/*Order now text on landing oage image*/
-.order-txt {
-    padding-bottom: 50px;
+
+
+/*div containing circular image*/
+.land{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Rounded image under landing page banner*/
+.round-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*all texts providing description are called sub-texts*/
+.sub-text{
+    color: #7d7e78;
+}
+.head-text{
+    color: #3b3a36;
+}
+.evivi{
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: #BA3709;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+/*top listings div*/
+.top-listing{
+  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #EEF0EB;
+    padding-left: 15%;
+    padding-right: 25%;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+/*ls is for images in the listings*/
+.ls{
+    margin-top: -10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #3b3a36;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+
 }
